@@ -1,0 +1,39 @@
+.social-bar{
+    position: fixed;
+    left: 100;
+    top: 35%;
+    font-size: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: #fff;
+    text-decoration: none;
+    padding: .7rem;
+    transition: all .5s;
+    display: flex;
+}
+.icon-facebook{
+    background: #1771E6;
+}
+.icon-instagram{
+    background: #1771E6;
+}
+.icon-mail{
+    background: #1771E6;
+}
+.icon-phone{
+    background: #1771E6;
+}
+.icon:first-child{
+    border-radius: 0 1rem 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 1rem 0;
+}
+.social-bar a{
+    color: #fff;
+    text-decoration: #fff;
+}
